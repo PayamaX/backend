@@ -1,4 +1,5 @@
-﻿using JetBrains.Annotations;
+﻿using System;
+using JetBrains.Annotations;
 using PayamaX.Portal.Controllers;
 using Xunit;
 
@@ -11,6 +12,6 @@ public class PayamaxPublicControllerUploadPayamaksTest
     [Fact]
     public void whenCallingUploadPayamaks_thenShouldPersistPayamaks()
     {
-        
+        throw new Exception();
     }
 }
