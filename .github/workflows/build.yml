@@ -29,6 +29,6 @@ jobs:
         run: dotnet restore
 
       - name: Build Project
-        run:
-        - dotnet test
-        - dotnet build --configuration Release
+        run: |
+          dotnet test
+          dotnet build --configuration Release
